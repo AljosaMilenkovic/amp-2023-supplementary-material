@@ -1,0 +1,26 @@
+			Head-H	*Nonhead-H	Nonfinality	FtBin	SWP	WSP	Max-H	Max-m	Dep-H	Dep-m	NoFlop-H	Head-H&FtBin
+			Head-H	*Nonhead-H	Nonfinality	FtBin	SWP	WSP	Max-H	Max-m	Dep-H	Dep-m	NoFlop-H	Head-H&FtBin
+A	(A)	1	0	0	1	1	1	0	0	0	0	0	0	0
+	(a)	0	1	0	1	1	1	0	1	0	0	0	0	1
+	(Aa)	0	0	0	0	0	0	0	0	0	0	1	0	0
+	(aa)	0	1	0	0	0	0	0	1	0	0	1	0	0
+a	(a)	1	1	0	1	1	1	0	0	0	0	0	0	1
+	(A)	0	0	0	1	1	1	0	0	0	1	0	0	0
+	(Aa)	0	0	0	0	0	0	0	0	0	1	1	0	0
+	(aa)	0	1	0	0	0	0	0	0	0	0	1	0	0
+Aa	(Aa)	1	0	0	0	0	0	0	0	0	0	0	0	0
+	(aa)	0	1	0	0	0	0	0	1	0	0	0	0	0
+	(A)	0	0	0	1	1	1	0	0	1	0	0	0	0
+	(a)	0	1	0	1	1	1	0	1	1	0	0	0	1
+aa	(aa)	1	1	0	0	0	0	0	0	0	0	0	0	0
+	(Aa)	0	0	0	0	0	0	0	0	0	1	0	0	0
+	(a)	0	1	0	1	1	1	0	0	1	0	0	0	1
+	(A)	0	0	0	1	1	1	0	0	1	1	0	0	0
+a.A	(a.A)	1	1	1	0	0	1	0	0	0	0	0	0	0
+	(a).A	0	1	0	0	1	1	0	0	0	0	0	0	1
+	a.(A)	0	0	0	1	1	1	0	0	0	0	0	0	0
+	(aa).A	0	1	0	0	0	0	0	0	0	0	1	0	0
+	(A.a)	0	0	0	0	0	1	0	0	0	0	0	1	0
+aa.A	(aa).A	1	1	0	0	0	0	0	0	0	0	0	0	0
+	aa.(A)	0	0	0	1	1	1	1	0	0	0	0	0	0
+	(Aa).a	0	0	0	0	0	0	0	0	0	0	0	1	0

@@ -27,3 +27,11 @@ lcc_model$loglik
 
 #likelihood ratio test
 compare_models(baseline_model, lcc_model, method = 'lrt')
+
+
+#predicted vs observed probabilities
+prob_baseline <- predict_probabilities(baseline, baseline_model$weights)
+write.csv(prob_baseline, "probability baseline.csv")
+
+prob_lcc <- predict_probabilities(lcc, lcc_model$weights)
+write.csv(prob_lcc, "probability lcc.csv")

@@ -2,8 +2,7 @@ library(dplyr)
 
 
 #Baseline constraint model
-baseline_url <- 
-
+baseline_url <- "https://raw.githubusercontent.com/AljosaMilenkovic/amp-2023-supplementary-material/main/baseline.csv"
 baseline <- read.csv(baseline_url, header = 1)
 
 #mappings that should be harmonically bounded (gratuitous faithfulness penalties)

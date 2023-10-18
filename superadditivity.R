@@ -2,7 +2,9 @@ library(dplyr)
 
 
 #Baseline constraint model
-baseline <- read.csv("baseline.csv", header = 1)
+baseline_url <- 
+
+baseline <- read.csv(baseline_url, header = 1)
 
 #mappings that should be harmonically bounded (gratuitous faithfulness penalties)
 which(baseline$A == "(a)")

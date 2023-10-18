@@ -85,7 +85,8 @@ sum(zec99$pathological)
 
 #########################
 #Constraint model enriched with the local conjunction of Head-H and FootBinarity
-lcc <- read.csv("lcc.csv", header = 1)
+lcc_url <- "https://github.com/AljosaMilenkovic/amp-2023-supplementary-material/blob/main/lcc.csv"
+lcc <- read.csv(lcc_url, header = 1)
 
 #mappings that should be harmonically bounded (gratuitous faithfulness penalties)
 which(lcc$A == "(a)")

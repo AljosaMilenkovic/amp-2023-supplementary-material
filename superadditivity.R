@@ -44,7 +44,8 @@ sum(baseline$pathological)
 #####################
 
 #Constraint model employed in Zec, D. (1999). Footed tones and tonal feet: Rhythmic constituency in a pitch accent language. Phonology 16(2)
-zec99 <- read.csv("zec 1999.csv", header = 1)
+zec99_url <- "https://raw.githubusercontent.com/AljosaMilenkovic/amp-2023-supplementary-material/main/zec%201999.csv"
+zec99 <- read.csv(zec99_url, header = 1)
 
 #mappings that should be harmonically bounded (gratuitous faithfulness penalties)
 which(zec99$A == "(a)")
